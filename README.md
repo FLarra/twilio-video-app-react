@@ -43,7 +43,7 @@ This app requires an additional plugin. Install the CLI plugin with:
 
 ## Deploy the app to Twilio
 
-Before deploying the app, make sure you are using the correct account on the Twilio CLI (using the command `twilio profiles:list` to check). 
+Before deploying the app, make sure you are using the correct account on the Twilio CLI (using the command `twilio profiles:list` to check).
 The app is deployed to Twilio with a single command:
 
     $ npm run deploy:twilio-cli
@@ -219,7 +219,7 @@ This application dynamically changes the priority of remote video tracks to prov
 
 ### Google Authentication using Firebase (optional)
 
-This application can be configured to authenticate users before they use the app. Once users have signed into the app with their Google credentials, their Firebase ID Token will be included in the Authorization header of the HTTP request that is used to obtain an access token. The Firebase ID Token can then be [verified](https://firebase.google.com/docs/auth/admin/verify-id-tokens) by the server that dispenses access tokens for connecting to a room. 
+This application can be configured to authenticate users before they use the app. Once users have signed into the app with their Google credentials, their Firebase ID Token will be included in the Authorization header of the HTTP request that is used to obtain an access token. The Firebase ID Token can then be [verified](https://firebase.google.com/docs/auth/admin/verify-id-tokens) by the server that dispenses access tokens for connecting to a room.
 
 See [.env.example](.env.example) for an explanation of the environment variables that must be set to enable Google authentication.
 
